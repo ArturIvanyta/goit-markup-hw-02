@@ -7,7 +7,7 @@ body {
 /*Header*/
 .head-logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -28,7 +28,7 @@ body {
 .nuv-link:hover {
   color: #404bbf;
 }
-.nuv-link:active {
+.nuv-link:focus {
   color: #404bbf;
 }
 
@@ -45,7 +45,7 @@ body {
 .address-link:hover {
   color: #404bbf;
 }
-.address-link:active {
+.address-link:focus {
   color: #404bbf;
 }
 
@@ -62,11 +62,6 @@ body {
   color: #fff;
 }
 .order-button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -78,7 +73,7 @@ body {
 .order-button:hover {
   background-color: #404bbf;
 }
-.order-button:active {
+.order-button:focus {
   background-color: #404bbf;
 }
 /*Section 1*/
