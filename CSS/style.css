@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #fff;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /*Header*/
@@ -13,7 +14,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.head-logo span {
+.head-logo-span {
   color: #2e2f42;
 }
 .nuv-link {
@@ -33,9 +34,6 @@ body {
   color: #404bbf;
 }
 
-.address-text li:hover {
-  color: #404bbf;
-}
 .head-address {
   font-style: normal;
 }
@@ -77,9 +75,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  cursor: pointe;
+  cursor: pointer;
 }
 .order-button:hover {
+  background-color: #404bbf;
+}
+.order-button:active {
   background-color: #404bbf;
 }
 /*Section 1*/
