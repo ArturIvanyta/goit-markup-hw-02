@@ -2,16 +2,21 @@ body {
   font-family: "Roboto", sans-serif;
   color: #fff;
 }
-footer {
-  background: #2e2f42;
-}
+
 /*Header*/
 .head-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+.head-logo span {
+  color: #2e2f42;
+}
+.nuv-link {
   color: #2e2f42;
 }
 .nuv-bar li {
@@ -21,22 +26,33 @@ footer {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nuv-bar li:hover {
+.nuv-link:hover {
   color: #404bbf;
 }
-.nuv-bar li:active {
+.nuv-link:active {
   color: #404bbf;
 }
-.address-text li {
+
+.address-text li:hover {
+  color: #404bbf;
+}
+.head-address {
+  font-style: normal;
+}
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-text li:hover {
+.address-link:hover {
   color: #404bbf;
 }
+.address-link:active {
+  color: #404bbf;
+}
+
 /*hero image*/
 .section-one {
   background: #2e2f42;
@@ -44,7 +60,7 @@ footer {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -61,19 +77,21 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointe;
 }
 .order-button:hover {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /*Section 1*/
-.section-two-list li h3 {
+
+.section-two-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-two-list li p {
+.section-two-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -87,12 +105,16 @@ footer {
 .section-three-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
-.section-three-list li h3 {
+.section-three-list-item {
+  background-color: #ffffff;
+}
+.section-three-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -100,7 +122,7 @@ footer {
   text-align: center;
   color: #2e2f42;
 }
-.section-three-list li p {
+.section-three-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -109,14 +131,14 @@ footer {
   color: #434455;
 }
 /*Section 3*/
-.section-four-list li h3 {
+.section-four-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-four-list li p {
+.section-four-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -124,6 +146,9 @@ footer {
   color: #434455;
 }
 /*footer*/
+.footer-bg {
+  background: #2e2f42;
+}
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
